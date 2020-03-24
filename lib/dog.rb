@@ -18,7 +18,7 @@ class Dog
   end
 
   def self.clear_all
-    #operates on the existing dogs and empties that array. use Array#clear method.
+    @@all.clear
   end
   
   def self.print_all
