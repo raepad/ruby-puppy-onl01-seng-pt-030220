@@ -21,7 +21,8 @@ class Dog
   end
   
   def self.print_all
-    @@all.each {|dog| puts dog.name}
+    @@all.each {|dogs| puts dogs.name}
+    #why is it dogs.name and not "#{name}"? Isn't name an instance variable and able to be used here?
   end
   
 end
